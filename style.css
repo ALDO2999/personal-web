@@ -1,0 +1,333 @@
+* html,
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: roboto, sans-serif;
+}
+
+
+.Fcontainer {
+    display: flex;
+    width: 100%;
+    height: 0.1px;
+    background-color: lightslategray;
+}
+
+.text-left{
+    color: #eb0808;
+}
+
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 15px;
+    width: 300%;
+    height: 50px;
+    background-color: #222;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.6);
+}
+
+
+.brand {
+    display: flex;
+    font-size: 28px;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+
+.firstname {
+    color: white;
+    font-weight: 700px;
+}
+
+.lastname {
+    color: crimson;
+    padding-left: 3px;
+    font-weight: 400px;
+}
+
+
+.navigattion {
+    display: flex;
+}
+
+.navigattion li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigattion li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+
+.navigattion li a:hover {
+    color: crimson;
+    transition: all .3s ease-in-out;
+}
+
+
+.active:hover {
+    color: white !important;
+}
+
+.active {
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+}
+
+.body .typing {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 27px;
+}
+
+
+body div .typing {
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+}
+
+.typing {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typinganim 2s steps(30);
+    color: rgb(247, 247, 191);
+}
+
+@keyframes typinganim {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 27%;
+    }
+}
+
+
+.container1 {
+    display: flex;
+    width: 100%;
+    height: 103vh;
+    background-color: lightslategray;
+    height: 0.1px;
+}
+
+
+.p1 {
+    color: rgb(247, 247, 191);
+    padding-top: 18%;
+    padding-left: 7%;
+    padding-right: 30%;
+    background-color: lightslategray;
+    /* background-image: url(img/back.jpg); */
+    background-image: url(img/1.jpg);
+    height: 68.5vh;
+}
+
+
+.p1 img {
+    
+    width: 30%;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 103vh;
+    background-color: lightslategray;
+    height: 0.1px;
+}
+
+
+.text1 {
+    padding-top: 8%;
+    padding-left: 30%;
+    padding-right: 30%;
+    /* background-color: lightslategray; */
+    background-image: url(img/2.jpg);
+    color: rgb(247, 247, 191);
+    height: 100vh;
+}
+
+.text1 img {
+    height: 40%;
+    width: 35%;
+    border-radius: 100%;
+}
+
+.p1 {
+    text-align: center;
+}
+
+
+.text3 {
+    padding-top: 10%;
+    background-color: lightslategray;
+    height: 110vh;
+}
+
+.html {
+    width: 15%;
+    height: 15%;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 5%;
+}
+
+img {
+    width: 75%;
+}
+
+.css {
+    width: 15%;
+    height: 15%;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 5%;
+}
+
+.css img {
+    width: 75%;
+}
+
+
+
+.content {
+    background-color: #f8f6f6;
+    border-radius: 10px;
+
+}
+
+
+
+.content1 {
+    padding: 15%;
+
+ font-size: 30px;
+}
+
+.section {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.section-small {
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.section-header {
+    color: crimson;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+img {
+    max-width: 1000%;
+    max-height: 200px;
+    
+}
+
+.gallery {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+figure {
+    margin: 0;
+}
+
+
+p {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+hr {
+    width: 60%;
+    border: 0.5px solid rgb(162, 159, 159);
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    padding-bottom: 20px;
+}
+
+th {
+    color: #eb0808;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+td {
+    text-align: center;
+    padding: 10px 15px;
+    color: #eb0808;
+}
+
+.text-left {
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(163, 218, 255);
+}
+
+tr.tr-header {
+    background-color: #0e0b09;
+    height: 50px;
+}
+
+
+
+.responsive table a {
+    color: #0e0b09;
+}
+
+
+@media screen and (min-width: 480px) {
+}
+
+ .text1 img{
+    display: flex;
+    flex-wrap: nowrap;
+ }
+
